@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: auto;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    background: #865454;
+    color: #14171a;
+    margin-left: 35%;
+    margin-right: 35%;
+    max-width: 1050px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main {
+    background: rgb(248, 241, 241);
+    border-radius: 3%;
+    border: solid 5px rgba(151, 67, 67, 0.158);
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+
+#header-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+}
+
+#juntos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.foto {
+    border-radius: 50%;
+    border: solid 8px rgba(151, 67, 67, 0.521);
+    width: 200px;
+    height: auto;
+}
+
+h1 {
+    text-align: auto;
+    
+}
+
+#flex-media {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 3px;
+    background-color: #63141433;
+    border-radius: 50%;
+}
+
+.flexmedia-item {
+    width: 20px;
+    height: auto;
+}
+
+#frase {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.juntoss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+#flex-arriba {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.prueba {
+    margin: 10px;
+
+}
+
+.pruebad {
+    margin: 10px;
+
+}
+
+#flex-abajo {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.pruebat {
+    margin: 10px;
+
+}
+
+.pruebac{
+    margin: 10px;
+
+}
+
+#discografia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #63141433;
+    border-radius: 50%;
+}
+
+.disco-item {
+    text-align: center;
+}
+
+.disco {
+    border-radius: 10%;
+    width: 100px;
+    height: auto;
+}
+
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+}
+
+@media only screen and (max-device-width: 800px) and (min-device-width: 500px){
+
+    body {
+        background: #865454;
+        color: #14171a;
+        margin-left: 22%;
+        margin-right: 22%;
+        max-width: 1050px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #header-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 15px;
+    }
+
+}
+
+@media only screen and (max-device-width: 499px) and (min-device-width: 300px){
+
+    body {
+        background: #865454;
+        color: #14171a;
+        margin-left: 10%;
+        margin-right: 10%;
+        max-width: 1050px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    #header-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 15px;
+    }
+
+    .juntoss {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    #discografia {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-around;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #63141433;
+        border-radius: 50%;
+    }
+}
